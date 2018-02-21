@@ -4,6 +4,18 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
+var LYAPI = require('lvyii_api')
+
+const appInfo = {
+  uploader: {
+    provider: 'qiniu',
+    AK: 'zT547Cjvf4LwGcx9HPkIttmEQ1sgio7CPhmRKnc9',
+    SK: 'HizfstSiHrUczcAn0ug89CFgByNi19Chw2pcVGHD',
+    bucket: 'lvyii-dev01'
+  }
+};
+
+LYAPI.init(appInfo);
 
 var index = require('./routes/index');
 var users = require('./routes/users');
@@ -21,6 +33,8 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
+
+app.use(LYAPI.express())
 
 app.use('/', index);
 app.use('/users', users);
