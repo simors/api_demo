@@ -11,7 +11,8 @@ const appInfo = {
     provider: 'qiniu',
     AK: 'zT547Cjvf4LwGcx9HPkIttmEQ1sgio7CPhmRKnc9',
     SK: 'HizfstSiHrUczcAn0ug89CFgByNi19Chw2pcVGHD',
-    bucket: 'lvyii-dev01'
+    bucket: 'lvyii-dev01',
+    region: 'z2'
   }
 };
 
