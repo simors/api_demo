@@ -12,7 +12,8 @@ const appInfo = {
     AK: 'zT547Cjvf4LwGcx9HPkIttmEQ1sgio7CPhmRKnc9',
     SK: 'HizfstSiHrUczcAn0ug89CFgByNi19Chw2pcVGHD',
     bucket: 'lvyii-dev01',
-    region: 'z2'
+    region: 'z2',
+    bindDomain: 'http://p1me48h1j.bkt.clouddn.com'
   }
 };
 
