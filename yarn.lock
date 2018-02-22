@@ -396,9 +396,9 @@ longest@^1.0.1:
   version "1.0.1"
   resolved "https://registry.npmjs.org/longest/-/longest-1.0.1.tgz#30a0b2da38f73770e8294a0d22e6625ed77d0097"
 
-lvyii_api@^0.0.4:
-  version "0.0.4"
-  resolved "https://registry.npmjs.org/lvyii_api/-/lvyii_api-0.0.4.tgz#81b3abb94cf57858a71fae0f49d9ee1740f0c5e7"
+lvyii_api@^0.0.5:
+  version "0.0.5"
+  resolved "https://registry.npmjs.org/lvyii_api/-/lvyii_api-0.0.5.tgz#bdb9cffc0d97da470ea28158cfd1b698361005ca"
   dependencies:
     body-parser "^1.18.2"
     connect "^3.6.5"
