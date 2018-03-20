@@ -7,6 +7,7 @@ var bodyParser = require('body-parser');
 var LYAPI = require('lvyii_api')
 
 const appInfo = {
+  appName: 'Lvyii_Demo',
   uploader: {
     provider: 'qiniu',
     AK: 'zT547Cjvf4LwGcx9HPkIttmEQ1sgio7CPhmRKnc9',
@@ -14,6 +15,12 @@ const appInfo = {
     bucket: 'lvyii-dev01',
     region: 'z2',
     bindDomain: 'http://p1me48h1j.bkt.clouddn.com'
+  },
+  sms: {
+    provider: "qcloudsms",
+    appId: "1400077093",
+    appKey: "45a725e82703b9b1ac98676278f1804e",
+    sign: "小吉网络"
   }
 };
 

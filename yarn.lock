@@ -396,15 +396,16 @@ longest@^1.0.1:
   version "1.0.1"
   resolved "https://registry.npmjs.org/longest/-/longest-1.0.1.tgz#30a0b2da38f73770e8294a0d22e6625ed77d0097"
 
-lvyii_api@^0.0.7:
-  version "0.0.7"
-  resolved "https://registry.npmjs.org/lvyii_api/-/lvyii_api-0.0.7.tgz#37f8f0b797f9b46907a0cb6706fe27291f02a776"
+lvyii_api@^0.0.9:
+  version "0.0.9"
+  resolved "https://registry.npmjs.org/lvyii_api/-/lvyii_api-0.0.9.tgz#e471d5227a5f6b713d87a496e3d284cbac43493f"
   dependencies:
     body-parser "^1.18.2"
     connect "^3.6.5"
     connect-timeout "^1.9.0"
     debug "^3.1.0"
     lvyii_cors_headers "^0.0.5"
+    qcloudsms_js "^0.1.0"
     qiniu "^7.1.2"
     underscore "^1.8.3"
 
@@ -543,6 +544,10 @@ proxy-addr@~1.1.5:
   dependencies:
     forwarded "~0.1.0"
     ipaddr.js "1.4.0"
+
+qcloudsms_js@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.npmjs.org/qcloudsms_js/-/qcloudsms_js-0.1.0.tgz#2799977d694d9275d44a18326bf18ed849b2c096"
 
 qiniu@^7.1.2:
   version "7.1.2"
